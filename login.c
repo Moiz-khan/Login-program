@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-void login(void);
+void login();
 
 int main()
 {
     login();
     return 0;
 }
-void login(void)
+void login()
 {
     char userid[]="imkhan" ,password[]="moiz",user[15],pass[15];
     int n=1,a,b;
